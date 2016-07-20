@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      My Modal
+    </ion-title>
+    <ion-buttons start>
+      <button (click)="dismiss()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="my-modal">
+  <ion-list>
+    <ion-item>Imagine a form</ion-item>
+  </ion-list>
+
+  <button block (click)="dismiss()" secondary>Save</button>
+</ion-content>
